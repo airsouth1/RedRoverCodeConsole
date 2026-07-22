@@ -31,7 +31,7 @@
         Console.WriteLine(FormatDataElementString(result, sortType: DataElementSortType.Ascending));
 
         Console.WriteLine("\nPress any key to close the console...");
-        Console.ReadLine();
+        Console.ReadKey();
     }
 
     static List<DataElement> ParseContent(string content, bool initial = false)
