@@ -29,6 +29,9 @@
         Console.WriteLine($"The following input has been parsed: {input}");
         Console.WriteLine(FormatDataElementString(result, sortType: DataElementSortType.None));
         Console.WriteLine(FormatDataElementString(result, sortType: DataElementSortType.Ascending));
+
+        Console.WriteLine("\nPress any key to close the console...");
+        Console.ReadLine();
     }
 
     static List<DataElement> ParseContent(string content, bool initial = false)
